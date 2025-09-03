@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:8000/api/students',
+    baseURL: 'https://api-sgms-backend-new.onrender.com/api/students',
     headers: {
         'Content-Type': 'application/json'
     }
